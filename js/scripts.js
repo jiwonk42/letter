@@ -2,7 +2,7 @@ $(document).ready(function(){
   $(".nameInput form").submit(function(event){
     var enteredName = $("#entered").val();
 
-    $("#letterHead").text(enteredName);
+    $("#letterHead").text("Dear " + enteredName + ",");
 
     $("#hidden").show();
     event.preventDefault();
